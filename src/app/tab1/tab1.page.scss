@@ -2,3 +2,13 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.nlines-ellipsis {
+  max-width: 200px;
+  line-height: 1em;
+  max-height: 2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
